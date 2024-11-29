@@ -9,6 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="4"
+        android:onClick="borrar"
         android:rowCount="5">
 
         <Button
@@ -35,7 +36,7 @@
 
             android:layout_margin="3dp"
             android:backgroundTint="#FFCDD2"
-            android:onClick="cambiarOperador"
+            android:onClick="borrar"
             android:text="C"
             android:textSize="24sp" />
 
